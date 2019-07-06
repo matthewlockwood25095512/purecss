@@ -1,0 +1,356 @@
+body{
+    background: #25A9FC;
+}
+.box{
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    width: 600px;
+    height: 420px;
+    background: none;
+}
+.head{
+    position: absolute;
+    top: 16.5%;
+    left: 25%;
+    width: 50%;
+    height: 67%;
+    background: #A6BECF;
+    border-radius: 50%;
+}
+.head-copy{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #A6BECF;
+    border-radius: 50%;
+    z-index: 2;
+}
+.koala-body {
+    position: absolute;
+    top: 69.5%;
+    left: 21%;
+    width: 60%;
+    height: 77%;
+    background: #A6BECF;
+    border-radius: 50%;
+    z-index: 1;
+}
+.cross{
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    top: 38%;
+    left: 40%;
+    background: gold;
+    -webkit-clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+    clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+    z-index: 2;
+}
+.small-cross{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    top: 15%;
+    left: 24%;
+    background: rgb(104, 89, 4);
+    -webkit-clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+    clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+    z-index: 3;
+}
+.ear-left{
+    position: absolute;
+    width: 60%;
+    height: 65%;
+    left: -20%;
+    top: 5%;
+    background: #A6BECF;
+    border-radius: 50%;
+    z-index: 1;
+}
+.ear-right{
+    position: absolute;
+    width: 60%;
+    height: 65%;
+    right: -20%;
+    top: 5%;
+    background: #A6BECF;
+    border-radius: 50%;
+    z-index: 1;
+  }
+.inner-ear{
+    position: absolute;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    background: #819CAF;
+  }
+.eye-left{
+    position: absolute;
+    background: white;
+    width: 30%;
+    height: 33%;
+    top: 25%;
+    left: 21%;
+    border-radius: 50%;
+    z-index: 3;
+  }
+.eye-right{
+    position: absolute;
+    background: white;
+    width: 30%;
+    height: 33%;
+    top: 25%;
+    right: 21%;
+    border-radius: 50%;
+    z-index: 2;
+  }
+.pupil{
+    position: absolute;
+    width: 28%;
+    height: 30%;
+    top: 35%;
+    left: 36%;
+    border-radius: 50%;
+    background: #27354A;
+  }
+.nose{
+    position: absolute;
+    background: #BE845F;
+    width: 25%;
+    height: 42.5%;
+    left: 37%;
+    top: 45%;
+    border-radius: 50px;
+    z-index: 4;
+  }
+.hair-left{
+    position: absolute;
+    top: -8%;
+    left: 30%;
+    width: 20%;
+    height: 20%;
+    background:  #A6BECF;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+.hair-right{
+    position: absolute;
+    top: -4%;
+    left: 48%;
+    width: 20%;
+    height: 20%;
+    background:  #A6BECF;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%)
+  }
+.chain1{
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    top: 8%;
+    left: 20%;
+    border-radius: 50%;
+    background: gold;
+    z-index: 2;
+  }
+.chain2{
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    top: 8%;
+    right: 20%;
+    border-radius: 50%;
+    background: gold;
+    z-index: 2;
+  }
+.chain3{
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    top: 12%;
+    left: 24%;
+    border-radius: 50%;
+    background: gold;
+    z-index: 2;
+  }
+.chain4{
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    top: 12%;
+    right: 24%;
+    border-radius: 50%;
+    background: gold;
+    z-index: 2;
+  }
+.chain5{
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    top: 16%;
+    left: 28%;
+    border-radius: 50%;
+    background: gold;
+    z-index: 2;
+  }
+.chain6{
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    top: 16%;
+    right: 28%;
+    border-radius: 50%;
+    background: gold;
+    z-index: 2;
+  }
+.chain7{
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    top: 20%;
+    left: 32%;
+    border-radius: 50%;
+    background: gold;
+    z-index: 2;
+  }
+.chain8{
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    top: 20%;
+    right: 32%;
+    border-radius: 50%;
+    background: gold;
+    z-index: 2;
+  }
+.chain9{
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    top: 24%;
+    left: 36%;
+    border-radius: 50%;
+    background: gold;
+    z-index: 2;
+  }
+.chain10{
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    top: 24%;
+    right: 36%;
+    border-radius: 50%;
+    background: gold;
+    z-index: 2;
+  }
+.chain11{
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    top: 28%;
+    left: 40%;
+    border-radius: 50%;
+    background: gold;
+    z-index: 2;
+  }
+.chain12{
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    top: 28%;
+    right: 40%;
+    border-radius: 50%;
+    background: gold;
+    z-index: 2;
+  }
+.chain13{
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    top: 32%;
+    left: 44%;
+    border-radius: 50%;
+    background: gold;
+    z-index: 2;
+  }
+.chain14{
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    top: 32%;
+    right: 44%;
+    border-radius: 50%;
+    background: gold;
+    z-index: 2;
+  }
+.inner-chain{
+    position: absolute;
+    width: 28%;
+    height: 30%;
+    top: 35%;
+    left: 36%;
+    border-radius: 50%;
+    background: #27354A;
+    z-index: 3;
+}
+.left-arm{
+    position: absolute;
+    background: rgb(148, 169, 185);
+    width: 25%;
+    height: 62.5%;
+    left: -4%;
+    top: 12%;
+    border-radius: 50px;
+    rotate: 20deg;
+    z-index: 4;
+}
+.watch{
+  position: absolute;
+  left: -3%;
+  bottom: 3%;
+  z-index: 5;
+}
+.right-arm{
+  position: absolute;
+  background: rgb(148, 169, 185);
+  width: 25%;
+  height: 62.5%;
+  right: -4%;
+  top: 12%;
+  border-radius: 50px;
+  z-index: 4;
+}
+.left-hand{
+  position: absolute;
+  background: rgb(148, 169, 185);
+  width: 25%;
+  height: 25%;
+  left: -4%;
+  top: 68%;
+  border-radius: 50px;
+  z-index: 4
+}
+.right-hand{
+  position: absolute;
+  background: rgb(148, 169, 185);
+  width: 25%;
+  height: 25%;
+  right: -4%;
+  top: 68%;
+  border-radius: 50px;
+  z-index: 4
+}
+.inner-hand{
+  position: absolute;
+  background: white;
+  width: 65%;
+  height: 65%;
+  top: 20%;
+  left: 18%;
+  border-radius: 50px;
+  z-index: 5;
+}
